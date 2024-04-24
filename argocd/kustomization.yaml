@@ -15,7 +15,7 @@ resources:
   # - appset.yaml
 
 # Setup multi-tenancy
-# components: [team1]
+components: [team1]
 
 patches:
   # Argo CD runtime settings
