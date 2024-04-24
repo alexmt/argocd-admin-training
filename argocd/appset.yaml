@@ -6,7 +6,7 @@ spec:
   goTemplate: true
   generators:
     - git:
-        repoURL: &repo https://github.com/<GITHUB_USERNAME>/argocd-admin-training.git
+        repoURL: &repo https://github.com/alexmt/argocd-admin-training.git
         revision: HEAD
         files:
         - path: apps/*/*.yaml

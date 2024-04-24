@@ -12,7 +12,7 @@ resources:
   # Ingress for ArgoCD
   - argocd-ingress.yaml
   # ApplicationSet to generate team applications
-  # - appset.yaml
+  - appset.yaml
 
 # Setup multi-tenancy
 components: [team1]
