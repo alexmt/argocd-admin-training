@@ -8,7 +8,7 @@ resources:
   # Namespace for ArgoCD
   - argocd-ns.yaml
   # OSS ArgoCD installation manifests
-  - https://raw.githubusercontent.com/argoproj/argo-cd/v2.10.6/manifests/install.yaml
+  - https://raw.githubusercontent.com/argoproj/argo-cd/v2.10.7/manifests/install.yaml
   # Ingress for ArgoCD
   - argocd-ingress.yaml
   # ApplicationSet to generate team applications
